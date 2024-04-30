@@ -24,13 +24,13 @@ function discountPrices(prices,discount){
 
     for (let i = 0; i < length; i++){
         const discountedPrice = prices[i] * (1 - discount);
-        discounted.push(finalPrice);
+        discounted.push(discountedPrice);
     }
 
-    console.log(i);
+    // console.log(i);
     // console.log(discountedPrice);
     // console.log(finalPrice);
-    // console.log(length);
+    console.log(length);
 
     return discounted;
 } 
