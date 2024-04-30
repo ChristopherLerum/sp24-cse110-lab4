@@ -1,4 +1,5 @@
 function discountPrices(prices,discount){
+    /*
     var discounted = [];
     var finalPrice = 0;
 
@@ -7,27 +8,24 @@ function discountPrices(prices,discount){
         finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
     }
-
-    /*
+    
+    
     let discounted = [];
     let finalPrice = 0;
 
     for (let i = 0; i < prices.length; i++){
-        let discountedPrices = prices[i] * (1 - discount);
-        finalPrice = Math.round(discountPrice * 100) / 100;
+        let discountedPrice = prices[i] * (1 - discount);
+        finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
-    }
-    */
-   /*
-    const discounted = [];
-    const finalPrice = 0;
+    }*/
 
-    for (let i = 0; i < prices.length; i++){
-        const discountedPrices = prices[i] * (1 - discount);
-        finalPrice = Math.round(discountPrice * 100) / 100;
+    const discounted = [];
+    const length = prices.length;
+
+    for (let i = 0; i < length; i++){
+        const discountedPrice = prices[i] * (1 - discount);
         discounted.push(finalPrice);
     }
-   */
 
     console.log(i);
     // console.log(discountedPrice);
