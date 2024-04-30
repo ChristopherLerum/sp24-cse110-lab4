@@ -59,4 +59,7 @@ true === Boolean(2) = true since the boolean of any value that is not 0 or empty
 # question 15 
 the == check the equivalence of 2 variables after a type conversion while === does not do a type conversion
 
+# question 17
+First the program calls the modifyArray and passes in the dosomething function as one of the arguments. in the function the for loop runs through the 3 integers in the array and runs the callback function on each integer. the callback function doubles the number in each loop and adds it to the newArr. thus the newArr consists of [2,4,6].
+
 
